@@ -33,13 +33,12 @@ _Status reviewed November 23, 2026._
 
 | Stage | Progress |
 | --- | --- |
-| Complete | Updated repository READMEs are on the default branches of Inventory, Financials, Customers and Cards. |
-| In review | The Inventory branch adds a local browser overview for retained eBay captures and historical eBay and Whatnot finances. Owner sign-in and hosted access are planned. [Inventory dashboard PR](https://github.com/jetblacksportscardsanddiecasts/Inventory/pull/2) |
-| Next milestone | Verify a current eBay Active Listings export, then compare it with a validated Whatnot inventory snapshot. |
-| Planned | Reviewed cross-listing preparation, reconciled profitability and a private admin dashboard. |
+| On `main` | Inventory has a local browser dashboard for retained eBay captures, search, inventory comparison, photo auditing and historical finances. The Website repository has the branded storefront preview. |
+| Next milestone | Extend historical sales reporting, verify a fresh eBay capture and obtain a validated Whatnot inventory snapshot. |
+| Planned | Owner-only sign-in, hosted access, automated read-only synchronization and reconciled profitability. |
 
 [See current open pull requests](https://github.com/pulls?q=is%3Apr+is%3Aopen+org%3Ajetblacksportscardsanddiecasts)
 
 ## Integration roadmap
 
-Research candidates include HobbyCardIndex, CardSight AI, SportsCardsPro, Trading Card Database, other card-image and metadata sources, and pricing or valuation services. Investigate supported SpeedyCardLister exports and reuse verified photos Jet Black owns before evaluating third-party images. Future marketplaces will be evaluated for inventory and sales coverage, licensing and cost. See the private [Inventory development plan](https://github.com/jetblacksportscardsanddiecasts/Inventory/blob/feature/inventory-dashboard/WEB-PLATFORM.md) for details.
+Research candidates include HobbyCardIndex, CardSight AI, SportsCardsPro, Trading Card Database, other card-image and metadata sources, and pricing or valuation services. Investigate supported SpeedyCardLister exports and reuse verified photos Jet Black owns before evaluating third-party images. Future marketplaces will be evaluated for inventory and sales coverage, licensing and cost. See the private [Inventory development plan](https://github.com/jetblacksportscardsanddiecasts/Inventory/blob/main/WEB-PLATFORM.md) for details.
