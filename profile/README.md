@@ -10,11 +10,9 @@
 
 </div>
 
-## About
+## How we work
 
-Jet Black Sports Cards & DieCasts sells sports cards and diecast collectibles. This organization contains internal tools for inventory management, customer reporting, and financial analytics.
-
-**Our workflow:** SpeedyCardLister handles card scanning, identification, and initial eBay listings. **eBay is the primary product catalog.** Development focuses on comparing eBay inventory with Whatnot, simplifying cross-listing, and consolidating sales reporting.
+Jet Black Sports Cards & DieCasts sells sports cards and diecast collectibles. SpeedyCardLister handles scanning, identification and initial eBay listings. eBay is the business’s primary catalog.
 
 ## Repositories
 
@@ -25,14 +23,9 @@ Jet Black Sports Cards & DieCasts sells sports cards and diecast collectibles. T
 | [Customers](https://github.com/jetblacksportscardsanddiecasts/Customers) | Customer insights and geographic sales reports |
 | [Cards](https://github.com/jetblacksportscardsanddiecasts/Cards) | Legacy card processing workflows retained for reference |
 
-## In development
+## Development status
 
-- **Inventory comparison:** eBay-only, Whatnot-only, matching and conflicting listings
-- **Analytics:** Sales, fees, returns, shipping, margins, and customer insights
-- **Cross-listing:** Validated import/export preparation with explicit review before marketplace changes
-- **Public presence:** Website and marketplace links, separate from private admin systems
-
-Not all planned integrations and dashboards are in production.
+The Inventory development branch has a local dashboard for importing and comparing seller snapshots and viewing historical eBay and Whatnot sales aggregates. Current seller-account inventory still needs validation. The next milestone is to reconcile the active eBay catalog with Whatnot variant inventory. Bulk listing review, profitability and private admin hosting are planned.
 
 ## Privacy and security
 
