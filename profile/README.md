@@ -10,6 +10,17 @@ Sports cards, collectibles and diecast vehicles
 
 </div>
 
+## How to open and test Jet Black
+
+| What you want to review | Where to go | Status |
+| --- | --- | --- |
+| **Public storefront source** | [Website README and local preview steps](https://github.com/jetblacksportscardsanddiecasts/Website#open-review-and-test-the-website) | Static page; hosting must be separately configured |
+| **Private business dashboard** | [Inventory quick-start instructions](https://github.com/jetblacksportscardsanddiecasts/Inventory#open-and-review-the-dashboard--quick-start) | Local browser preview; hosted owner sign-in not ready |
+| **Development progress** | [GitHub organization pull requests](https://github.com/pulls?q=is%3Apr+org%3Ajetblacksportscardsanddiecasts) | Code reviews and branch changes |
+| **Existing marketplace** | [eBay store](https://www.ebay.com/str/jetblacksportscards) · [Whatnot](https://www.whatnot.com/user/jetblacksportscardsanddiecasts) | External storefronts |
+
+**Important:** A GitHub README is not a live dashboard. The current Inventory preview runs on your own computer; the Website repository is public HTML/CSS awaiting separate hosting approval. Never publish internal seller reports or credentials through GitHub Pages.
+
 ## Project at a glance
 
 Jet Black uses eBay as its primary catalog. SpeedyCardLister handles card scanning, identification and initial eBay listings. This organization builds the tools used to compare marketplace inventory and report on sales.
